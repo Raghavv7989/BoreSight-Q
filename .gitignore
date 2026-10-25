@@ -1,0 +1,83 @@
+# Environments & Virtual Envs
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+htmlcov/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.npm
+.yarn/
+*.tsbuildinfo
+
+# Secrets & Environment Variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# OS & Editor Artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Local Geospatial & Raster Cache / Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.temp
+raster_cache/
+cache/
+tmp/
+*.kml.tmp
+*.tif
+*.tiff
